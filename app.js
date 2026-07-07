@@ -10,8 +10,9 @@ import { initBuzzPower } from "./buzzPower.js";
 import { getCurrentCardType, setCurrentCardType } from "./config.js";
 
 export function startApp(){
-    const config = getCurrentCardType();
+
     const cardTypeSelect = document.getElementById("cardType");
+    const config = getCurrentCardType();
 
     cardTypeSelect.value = config.type;
 
@@ -21,8 +22,8 @@ export function startApp(){
     initAttribute();
     initText();
     initSerial();
-    initSave();
     initBuzzPower();
+    initSave();
     initReset();
 
     cardTypeSelect.addEventListener("change", () => {
@@ -30,18 +31,22 @@ export function startApp(){
         location.reload();
     });
 
+    resizePreview();
+
     console.log("Original Card Maker 起動");
+
 }
 
 window.addEventListener("resize", resizePreview);
 
-setTimeout(resizePreview, 100);
-
 function resizePreview(){
+
     const preview = document.querySelector(".preview");
     const fabricContainer = document.querySelector(".canvas-container");
 
-    if(!preview || !fabricContainer) return;
+    if(!preview || !fabricContainer){
+        return;
+    }
 
     const scale = Math.min(
         preview.clientWidth / 697,
@@ -50,4 +55,5 @@ function resizePreview(){
 
     fabricContainer.style.transform = `scale(${scale})`;
     fabricContainer.style.transformOrigin = "center center";
+
 }
