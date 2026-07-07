@@ -1,13 +1,13 @@
-import { initCanvas } from "./canvas.js";
-import { initImages } from "./image.js";
-import { initFrame } from "./frame.js";
-import { initAttribute } from "./attribute.js";
-import { initText } from "./text.js";
-import { initSerial } from "./serial.js";
-import { initSave } from "./save.js";
-import { initReset } from "./reset.js";
-import { initBuzzPower } from "./buzzPower.js";
-import { getCurrentCardType, setCurrentCardType } from "./config.js";
+import { initCanvas } from "https://iprimaker/github.io/20267/canvas.js";
+import { initImages } from "https://iprimaker/github.io/20267/image.js";
+import { initFrame } from "https://iprimaker/github.io/20267/frame.js";
+import { initAttribute } from "https://iprimaker/github.io/20267/attribute.js";
+import { initText } from "https://iprimaker/github.io/20267/text.js";
+import { initSerial } from "https://iprimaker/github.io/20267/serial.js";
+import { initSave } from "https://iprimaker/github.io/20267/save.js";
+import { initReset } from "https://iprimaker/github.io/20267/reset.js";
+import { initBuzzPower } from "https://iprimaker/github.io/20267/buzzPower.js";
+import { getCurrentCardType, setCurrentCardType } from "https://iprimaker/github.io/20267/config.js";
 
 export function startApp(){
 
