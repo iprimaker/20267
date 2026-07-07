@@ -1,6 +1,6 @@
-import { getCanvas } from "./canvas.js";
-import { sortLayers } from "./layer.js";
-import { getCurrentCardType } from "./config.js";
+import { getCanvas } from "https://iprimaker/github.io/20267/canvas.js";
+import { sortLayers } from "https://iprimaker/github.io/20267/layer.js";
+import { getCurrentCardType } from "https://iprimaker/github.io/20267/config.js";
 
 let nameText = null;
 let costumeText = null;
