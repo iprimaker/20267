@@ -1,4 +1,4 @@
-import { startApp } from "./modules/app.js";
+import { startApp } from "https://iprimaker/github.io/20267/modules/app.js";
 
 window.addEventListener("DOMContentLoaded", () => {
 
