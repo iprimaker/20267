@@ -1,4 +1,4 @@
-import { getCanvas } from "./canvas.js";
+import { getCanvas } from "https://iprimaker/github.io/20267/canvas.js";
 
 const LAYER_ORDER = {
     background: 1,
