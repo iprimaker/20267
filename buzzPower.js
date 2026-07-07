@@ -19,7 +19,9 @@ const BUZZ_POWER_LIST = {
         { id: "buzz11", name: "1350", path: "../assets/buzzpower/A1350.png" },
         { id: "buzz12", name: "1400", path: "../assets/buzzpower/A1400.png" }
     ],
-    B: []
+    B: [ 
+        { id: "buzz1", name: "選択できません", path: "../assets/buzzpower/B900.png" }
+    ]
 };
 
 export function initBuzzPower(){
