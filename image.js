@@ -1,5 +1,5 @@
-import { getCanvas } from "./canvas.js";
-import { sortLayers } from "./layer.js";
+import { getCanvas } from "https://iprimaker/github.io/20267/canvas.js";
+import { sortLayers } from "https://iprimaker/github.io/20267/layer.js";
 
 let backgroundObject = null;
 let characterObject = null;
